@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*------------Header inicio---------------*/
+header {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 130px;
+  /* background: url(/img/Header/head.jpg) no-repeat; */
+  background: teal;
+  display: flex; /* Para alinear elementos en fila */
+  justify-content: space-between; /* Espacio entre navegación y logo */
+  align-items: center; /* Centrar verticalmente */
+}
+
+#logo {
+  position: absolute;
+  left: 15px;
+}
+
+/*------------Nav inicio---------------*/
+/* Estilos de la barra de navegación */
+.navbar {
+  margin-left: 200px;
+  display: flex; /* Para alinear los enlaces en fila */
+  justify-content: center; /* Centrar los enlaces horizontalmente */
+  align-items: center; /* Centrar los enlaces verticalmente */
+}
+.navbar .nav-links {
+  list-style: none; /* Quita los puntos de la lista */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Para que los enlaces estén en fila */
+}
+
+.navbar .nav-links li {
+  margin-right: 30px; /* Espacio entre cada enlace */
+}
+
+.navbar .nav-links li:last-child {
+  margin-right: 0; /* No hay margen a la derecha en el último elemento */
+}
+
+.navbar .nav-links a {
+  color: #fff; /* Color del texto de los enlaces */
+  text-decoration: none; /* Quita el subrayado */
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+.navbar .nav-links a:hover {
+  color: #007bff; /* Color de los enlaces al pasar el mouse */
+}
+/*------------Nav fin---------------*/
+
+/*------------Header fin---------------*/
+
+/*------------Main inicio---------------*/
+main {
+  padding: 20px;
+  max-width: 960px;
+  margin: 20px auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+/*------------Main fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
+
+/*------------Header inicio---------------*/
+/*------------Header fin---------------*/
