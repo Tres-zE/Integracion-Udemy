@@ -1,0 +1,87 @@
+section#galeria {
+  position: relative;
+  margin: auto;
+  width: 1000px;
+  height: 299px;
+  background: white;
+  border-radius: 8px;
+}
+
+div img {
+  width: 630px;
+  height: 250px;
+  box-shadow: 0px 0px 10px #222;
+}
+
+label img {
+  width: 200px;
+  height: 75px;
+  /* border: 2px solid #222; */
+  box-shadow: 0px 0px 10px #222;
+}
+
+section#galeria ul#cajaGaleria {
+  position: relative;
+  width: 935px;
+  height: 262px;
+  margin: auto;
+  top: 18px;
+  /* background: white;
+  box-shadow: 0px 0px 30px #222; */
+}
+
+section#galeria ul#cajaGaleria li div {
+  position: absolute;
+  opacity: 0;
+  right: 20px;
+  top: 7px;
+  transition: all 0.2s ease-out;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+}
+
+section#galeria ul#cajaGaleria li div#galeria00 {
+  opacity: 1;
+}
+
+section#galeria ul#cajaGaleria li div h1 {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+section#galeria ul#cajaGaleria li div p {
+  position: absolute;
+  z-index: 1;
+  bottom: 4px;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  width: 96.9%;
+  line-height: 60px;
+  padding-left: 20px;
+}
+
+section#galeria ul#cajaGaleria li label {
+  position: relative;
+  z-index: 3;
+  /* width: 200px;
+  height: 75px; */
+  top: 15px;
+  left: 15px;
+  margin: 2px 0;
+  cursor: pointer;
+}
+
+section#galeria ul#cajaGaleria li input {
+  display: none;
+}
+
+input#btn01:checked ~ #galeria01,
+input#btn02:checked ~ #galeria02,
+input#btn03:checked ~ #galeria03 {
+  opacity: 1;
+  z-index: 1;
+}

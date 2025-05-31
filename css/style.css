@@ -19,7 +19,7 @@ header {
   align-items: center; /* Centrar verticalmente */
 }
 
-#logo {
+.logo {
   position: absolute;
   left: 15px;
 }

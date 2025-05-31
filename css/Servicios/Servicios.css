@@ -1,0 +1,39 @@
+.descripcion {
+  width: 1000px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px auto;
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.descripcion p {
+  text-align: justify;
+  margin: 0 110px;
+  padding: 10px;
+}
+
+.descripcion h2 {
+  font-size: 1.8rem;
+  color: #b94444;
+  text-align: center;
+  margin: 20px 70px;
+}
+
+.descripcion span {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  color: #007bff;
+}

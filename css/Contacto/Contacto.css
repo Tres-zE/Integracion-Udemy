@@ -1,0 +1,161 @@
+.descripcion {
+  width: 1000px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #333;
+  margin: 20px auto;
+  position: relative;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion h1 {
+  font-size: 2.5rem;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.descripcion p {
+  display: flex;
+  justify-content: center;
+  /* text-align: justify;
+  margin: 0 110px; */
+  padding: 10px;
+}
+
+/* Estilos generales del formulario */
+.contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.contact-form h2 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+/* Estilos para cada grupo de formulario (label + input/textarea) */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555555;
+  font-weight: bold;
+}
+
+.form-group input[type='text'],
+.form-group input[type='email'],
+.form-group input[type='tel'],
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  box-sizing: border-box; /* Asegura que el padding no aumente el ancho total */
+  font-size: 1em;
+  color: #333333;
+}
+
+.form-group input[type='text']:focus,
+.form-group input[type='email']:focus,
+.form-group input[type='tel']:focus,
+.form-group textarea:focus {
+  border-color: #007bff; /* Color de enfoque */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.form-group textarea {
+  resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+/* Estilos del botón de envío */
+.contact-form button[type='submit'] {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff; /* Color principal del botón */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button[type='submit']:hover {
+  background-color: #0056b3; /* Color al pasar el mouse */
+}
+
+/* Media queries para responsividad */
+@media (max-width: 768px) {
+  .contact-form {
+    margin: 20px auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-form h2 {
+    font-size: 1.8em;
+  }
+  .form-group input[type='text'],
+  .form-group input[type='email'],
+  .form-group input[type='tel'],
+  .form-group textarea,
+  .contact-form button[type='submit'] {
+    font-size: 0.9em;
+    padding: 10px;
+  }
+}
+
+.descripcion ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descripcion ul li {
+  margin-top: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #555;
+}
+
+.descripcion ul li::before {
+  content: '•'; /* Punto antes de cada elemento */
+  color: #007bff; /* Color del punto */
+  margin-right: 8px; /* Espacio entre el punto y el texto */
+}
+
+.descripcion ul li a {
+  color: #007bff; /* Color del enlace */
+  text-decoration: none; /* Sin subrayado */
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Transición suave */
+  font-weight: bold; /* Negrita para destacar */
+}
+
+.descripcion ul li a:hover {
+  color: #0056b3; /* Color al pasar el mouse */
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+  transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+  text-decoration-color: #0056b3; /* Color del subrayado */
+}
