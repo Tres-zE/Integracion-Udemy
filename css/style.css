@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*------------Header inicio---------------*/
@@ -19,9 +19,12 @@ header {
   align-items: center; /* Centrar verticalmente */
 }
 
-.logo {
+.logo img {
   position: absolute;
+  width: 150px;
   left: 15px;
+  bottom: 0;
+  mix-blend-mode: multiply; /* Mezcla de colores */
 }
 
 /*------------Nav inicio---------------*/
