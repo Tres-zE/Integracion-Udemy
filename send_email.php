@@ -41,6 +41,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 } else {
     // Si alguien intenta acceder directamente a send_email.php sin enviar el formulario
     header("Location: contacto.html"); // O la página de tu formulario
-    exit();
+    exit();// Siempre usa exit() después de una redirección
 }
 ?>

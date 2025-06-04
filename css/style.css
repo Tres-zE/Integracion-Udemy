@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*------------Header inicio---------------*/
@@ -15,7 +15,26 @@ header {
   /* background: url(/img/Header/head.jpg) no-repeat; */
   background: teal;
   display: flex; /* Para alinear elementos en fila */
-  justify-content: space-between; /* Espacio entre navegación y logo */
+  justify-content: flex-end; /* Espacio entre navegación y logo */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: row-reverse; /* Alinear logo a la derecha */
+}
+
+.name {
+  /* position: absolute;
+  top: 10px;
+  left: 15px; */
+  color: #fff; /* Color del texto */
+  font-size: 1.5em; /* Tamaño del texto */
+  font-weight: bold; /* Negrita */
+}
+
+.logo {
+  position: relative;
+  width: 200px; /* Ancho del logo */
+  height: 100px; /* Alto del logo */
+  display: flex; /* Para alinear el logo en el centro */
+  justify-content: center; /* Centrar horizontalmente */
   align-items: center; /* Centrar verticalmente */
 }
 
@@ -23,14 +42,14 @@ header {
   position: absolute;
   width: 150px;
   left: 15px;
-  bottom: 0;
+  /* bottom: 0; */
   mix-blend-mode: multiply; /* Mezcla de colores */
 }
 
 /*------------Nav inicio---------------*/
 /* Estilos de la barra de navegación */
 .navbar {
-  margin-left: 200px;
+  margin-left: 100px;
   display: flex; /* Para alinear los enlaces en fila */
   justify-content: center; /* Centrar los enlaces horizontalmente */
   align-items: center; /* Centrar los enlaces verticalmente */
@@ -76,24 +95,6 @@ main {
   z-index: 1;
 }
 /*------------Main fin---------------*/
-
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
-
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
-
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
-
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
-
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
-
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
 
 /*------------Header inicio---------------*/
 /*------------Header fin---------------*/
