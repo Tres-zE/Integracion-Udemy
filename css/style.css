@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 /*------------Header inicio---------------*/
@@ -13,7 +13,7 @@ header {
   width: 1000px;
   height: 130px;
   /* background: url(/img/Header/head.jpg) no-repeat; */
-  background: teal;
+  background: #fff8f8;
   display: flex; /* Para alinear elementos en fila */
   justify-content: flex-end; /* Espacio entre navegación y logo */
   align-items: center; /* Centrar verticalmente */
@@ -24,7 +24,7 @@ header {
   /* position: absolute;
   top: 10px;
   left: 15px; */
-  color: #fff; /* Color del texto */
+  color: #201f1f; /* Color del texto */
   font-size: 1.5em; /* Tamaño del texto */
   font-weight: bold; /* Negrita */
 }
@@ -70,7 +70,7 @@ header {
 }
 
 .navbar .nav-links a {
-  color: #fff; /* Color del texto de los enlaces */
+  color: #201f1f; /* Color del texto de los enlaces */
   text-decoration: none; /* Quita el subrayado */
   font-weight: bold;
   font-size: 1.1em;
@@ -96,5 +96,45 @@ main {
 }
 /*------------Main fin---------------*/
 
-/*------------Header inicio---------------*/
-/*------------Header fin---------------*/
+/*------------Responsive---------------*/
+
+@media (max-width: 430px) {
+  header {
+    flex-direction: column; /* Cambia la dirección a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    width: 100%; /* Ancho completo en pantallas pequeñas */
+    padding: 10px; /* Añade un poco de espacio alrededor */
+  }
+  .navbar {
+    margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+    margin-top: 10px; /* Añade un margen superior para separación */
+  }
+
+  .nav-links {
+    flex-direction: column; /* Cambia la dirección a columna */
+    align-items: center; /* Centra los enlaces horizontalmente */
+  }
+
+  .nav-links li {
+    margin-right: 0; /* Elimina el margen derecho en pantallas pequeñas */
+    margin-bottom: 10px; /* Añade un margen inferior para separación */
+  }
+
+  .navbar .nav-links li a {
+    font-size: 1em; /* Ajusta el tamaño del texto en pantallas pequeñas */
+  }
+
+  .name {
+    font-size: 1em; /* Ajusta el tamaño del texto en pantallas pequeñas */
+    /*  margin-bottom: 10px; Añade un margen inferior para separación */
+  }
+
+  .logo {
+    width: 80px; /* Ajusta el ancho del logo en pantallas pequeñas */
+    height: 80px; /* Ajusta la altura del logo en pantallas pequeñas */
+  }
+
+  .logo img {
+    width: 80px; /* Ajusta el tamaño del logo en pantallas pequeñas */
+  }
+}

@@ -90,3 +90,15 @@
   animation: myAnimation 24s linear 0s infinite;
   -webkit-animation: myAnimation 24s linear 0s infinite;
 }
+
+@media screen and (max-width: 768px) {
+  #fondo_1,
+  #fondo_2,
+  #fondo_3,
+  #fondo_4 {
+    display: none;
+    /* Si quieres, puedes dejar las otras reglas, pero display:none es suficiente */
+    /* background-size: cover;
+    background-position: center; */
+  }
+}

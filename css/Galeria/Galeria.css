@@ -85,3 +85,23 @@ input#btn03:checked ~ #galeria03 {
   opacity: 1;
   z-index: 1;
 }
+
+@media (max-width: 600px) {
+  section#galeria {
+    width: 100%;
+  }
+
+  /* section#galeria ul#cajaGaleria {
+    width: 100%;
+  }
+
+  div img {
+    width: 100%;
+    height: auto;
+  }
+
+  label img {
+    width: 100%;
+    height: auto;
+  } */
+}

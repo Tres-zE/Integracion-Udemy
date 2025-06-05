@@ -68,3 +68,29 @@
   height: 26px;
   background: rgb(4, 4, 178);
 }
+
+@media (max-width: 764px) {
+  #slide {
+    width: 100%;
+    height: auto;
+  }
+
+  #slide ul {
+    width: 100%;
+    height: auto;
+  }
+
+  #slide ul li img {
+    width: 100%;
+    height: auto;
+  }
+
+  #botoneraSlide {
+    width: 100%;
+    height: auto;
+  }
+
+  #botoneraSlide label {
+    left: calc(50% - 5px);
+  }
+}
