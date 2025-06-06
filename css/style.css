@@ -3,7 +3,7 @@
   padding: 0;
   text-decoration: none;
   list-style: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*------------Header inicio---------------*/
@@ -62,7 +62,7 @@ header {
 }
 
 .navbar .nav-links li {
-  margin-right: 30px; /* Espacio entre cada enlace */
+  margin-right: 20px; /* Espacio entre cada enlace */
 }
 
 .navbar .nav-links li:last-child {
@@ -100,19 +100,14 @@ main {
 
 @media (max-width: 430px) {
   header {
-    flex-direction: column; /* Cambia la dirección a columna */
+    flex-direction: column-reverse; /* Cambia la dirección a columna */
     align-items: center; /* Centra los elementos horizontalmente */
     width: 100%; /* Ancho completo en pantallas pequeñas */
-    padding: 10px; /* Añade un poco de espacio alrededor */
+    /*padding: 10px;  Añade un poco de espacio alrededor */
   }
   .navbar {
     margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
     margin-top: 10px; /* Añade un margen superior para separación */
-  }
-
-  .nav-links {
-    flex-direction: column; /* Cambia la dirección a columna */
-    align-items: center; /* Centra los enlaces horizontalmente */
   }
 
   .nav-links li {
@@ -124,14 +119,18 @@ main {
     font-size: 1em; /* Ajusta el tamaño del texto en pantallas pequeñas */
   }
 
+  .navbar .nav-links a:hover {
+    color: #007bff; /* Color de los enlaces al pasar el mouse */
+  }
   .name {
-    font-size: 1em; /* Ajusta el tamaño del texto en pantallas pequeñas */
-    /*  margin-bottom: 10px; Añade un margen inferior para separación */
+    /*font-size: 1em;  Ajusta el tamaño del texto en pantallas pequeñas */
+    margin-top: 38px; /*Añade un margen inferior para separación */
+    position: absolute;
   }
 
   .logo {
-    width: 80px; /* Ajusta el ancho del logo en pantallas pequeñas */
-    height: 80px; /* Ajusta la altura del logo en pantallas pequeñas */
+    width: 0px; /* Ajusta el ancho del logo en pantallas pequeñas */
+    position: initial;
   }
 
   .logo img {
