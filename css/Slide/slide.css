@@ -97,4 +97,14 @@
     height: 15px;
     margin: 0 8px;
   }
+
+  #slide ul li input#boton-1:checked ~ #foto-1,
+  #slide ul li input#boton-2:checked ~ #foto-2,
+  #slide ul li input#boton-3:checked ~ #foto-3,
+  #slide ul li input#boton-4:checked ~ #foto-4,
+  #slide ul li input#boton-5:checked ~ #foto-5,
+  #slide ul li input#boton-6:checked ~ #foto-6,
+  #slide ul li input#boton-7:checked ~ #foto-7 {
+    opacity: 1;
+  }
 }
