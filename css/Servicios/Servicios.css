@@ -37,3 +37,25 @@
   font-weight: bold;
   color: #007bff;
 }
+
+@media screen and (max-width: 768px) {
+  .descripcion {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .descripcion h1 {
+    font-size: 2rem;
+  }
+
+  .descripcion p {
+    margin: 0;
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .descripcion h2 {
+    font-size: 1.5rem;
+    margin: 20px auto;
+  }
+}

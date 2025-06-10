@@ -32,3 +32,20 @@
 .descripcion p .bold {
   font-size: x-large;
 }
+
+@media screen and (max-width: 768px) {
+  .descripcion {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .descripcion h1 {
+    font-size: 2rem;
+  }
+
+  .descripcion p {
+    margin: 0;
+    padding: 10px;
+    font-size: 1rem;
+  }
+}

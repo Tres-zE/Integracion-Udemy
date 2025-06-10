@@ -86,29 +86,50 @@ input#btn03:checked ~ #galeria03 {
   z-index: 1;
 }
 
-@media (max-width: 430px) {
+@media screen and (max-width: 430px) {
   section#galeria {
     width: 100%;
+    /* height: auto; */
+    display: block;
+  }
+
+  div img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    margin-top: 5px;
+  }
+
+  label img {
+    width: 100px;
+    max-width: 280px;
     height: auto;
   }
 
   section#galeria ul#cajaGaleria {
     width: 100%;
     height: auto;
+    display: block;
   }
 
-  section#galeria ul#cajaGaleria div img {
-    width: 100%;
-    height: 180px;
-  }
-
-  label img {
-    width: 100px;
-    height: auto;
+  section#galeria ul#cajaGaleria li div h1 {
+    font-size: 1.2em;
+    top: 10px;
+    left: 10px;
   }
 
   section#galeria ul#cajaGaleria li div p {
-    font-size: 0.8em; /* Ajusta el tamaño del texto en pantallas pequeñas */
-    padding-left: 10px; /* Reduce el padding para pantallas pequeñas */
+    font-size: 0.8em;
+    padding-left: 10px;
+    bottom: 10px;
+  }
+
+  section#galeria ul#cajaGaleria li label {
+    top: 5px;
+    /* left: 10px; */
+  }
+  section#galeria ul#cajaGaleria li div {
+    right: 10px;
+    /* top: 5px; */
   }
 }
